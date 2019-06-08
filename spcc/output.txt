@@ -1,0 +1,7 @@
+MOV AX,@data,
+ INT 21h
+MOV AX,a ,
+MOV BX, b,
+ MUL BX ,
+ MUL AH,09h 
+ INT 21h
